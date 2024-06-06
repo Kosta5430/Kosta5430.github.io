@@ -15,6 +15,10 @@ body {
     margin-bottom: 120px;
 }
 
+.cool {
+    background-image: url("../images/josh-hild-bSM_jWP5gwc-unsplash.jpg");
+}
+
 header {
     background: #333;
     color: #fff;
