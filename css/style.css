@@ -9,6 +9,10 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
 }
 
 header {
@@ -38,12 +42,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-main {
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 main section {
     margin-bottom: 2rem;
     background: #fff;
@@ -67,4 +65,13 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.background {
+    background: rgb(0, 147, 233);
+}
+
+.half-card{
+    display: flex;
+    justify-content: space-around;
 }
